@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/css/master.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sign in to your profile.</h1>
+  </div>
+  <div class="form">
+  <form class="loginForm" action="/authorized" method="post">
+
+    <div class="errorMessage">
+      <h2>{{message}}</h2>
+    </div>
+    <div class="usernameField">
+      <input type="text" name="username" value="" placeholder="Username">
+    </div>
+    <div class="passwordField">
+      <input type="text" name="password" value="" placeholder="Password">
+    </div>
+    <div>
+      <input class="button" type="submit" name="" value="Login">
+    </div>
+    </div>
+  </form>
+
+</body>
+
+</html>
